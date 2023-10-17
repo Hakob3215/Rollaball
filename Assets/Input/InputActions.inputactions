@@ -6,6 +6,15 @@
             "id": "3159e119-a9c6-40b9-a24d-ec6421691c1a",
             "actions": [
                 {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "e311570a-1e2a-4151-b873-fffa9205f197",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Move",
                     "type": "Value",
                     "id": "75d3a99d-19ee-4ff3-9c15-52ed0fb72d0d",
@@ -251,6 +260,17 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bf513d93-ca12-492d-9f3e-c3291c3b8525",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
